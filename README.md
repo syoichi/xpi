@@ -1,0 +1,2 @@
+# xpi
+My Firefox Extensions
