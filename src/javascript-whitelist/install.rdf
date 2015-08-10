@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF
+  xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>javascript-whitelist_@syoichi.github.io</em:id>
+    <em:version>0.0.2</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+
+    <!-- Front End MetaData -->
+    <em:name>JavaScript Whitelist</em:name>
+    <em:description>
+      disable JavaScript on all sites except whitelist's sites.
+    </em:description>
+    <em:creator>syoichi</em:creator>
+    <em:homepageURL>https://github.com/syoichi/xpi</em:homepageURL>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description
+        em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+        em:minVersion="39.0"
+        em:maxVersion="39.0"/>
+    </em:targetApplication>
+  </Description>
+</RDF>

@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "test": "jshint src/ && jscs src/ && eslint src/"
+  },
+  "devDependencies": {
+    "jshint": "",
+    "jscs": "",
+    "eslint": ""
+  },
+  "engines": {
+    "node": ">=0.12",
+    "npm": ">=2.9"
+  },
+  "private": true
+}
