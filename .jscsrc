@@ -54,7 +54,9 @@
   "disallowSpacesInsideParentheses": true,
   "disallowTrailingWhitespace": true,
   "disallowYodaConditions": ["==", "!=", "===", "!==", ">", "<", ">=", "<="],
-  "requireBlocksOnNewline": true,
+  "requireBlocksOnNewline": {
+    "includeComments": true
+  },
   "requireCamelCaseOrUpperCaseIdentifiers": true,
   "requireCapitalizedConstructors": true,
   "requireCurlyBraces": [
@@ -112,5 +114,6 @@
   },
   "validateAlignedFunctionParameters": true,
   "validateLineBreaks": null,
+  "validateOrderInObjectKeys": null,
   "validateParameterSeparator": ", "
 }
