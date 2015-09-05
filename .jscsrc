@@ -39,7 +39,9 @@
   ],
   "disallowPaddingNewlinesInBlocks": true,
   "disallowParenthesesAroundArrowParam": null,
-  "disallowQuotedKeysInObjects": "allButReserved",
+  "disallowQuotedKeysInObjects": {
+    "allExcept": ["reserved"]
+  },
   "disallowSpaceAfterObjectKeys": true,
   "disallowSpaceAfterPrefixUnaryOperators": ["+", "-", "!", "~"],
   "disallowSpaceBeforeBinaryOperators": [","],
@@ -52,6 +54,7 @@
   "disallowSpacesInsideArrayBrackets": true,
   "disallowSpacesInsideObjectBrackets": true,
   "disallowSpacesInsideParentheses": true,
+  "disallowSpacesInsideParenthesizedExpression": true,
   "disallowTrailingWhitespace": true,
   "disallowYodaConditions": ["==", "!=", "===", "!==", ">", "<", ">=", "<="],
   "requireBlocksOnNewline": {
