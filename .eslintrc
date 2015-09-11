@@ -67,6 +67,10 @@
     "no-multi-str": 2,
     "no-native-reassign": 2,
     "no-new-func": 2,
+    "no-restricted-syntax": [
+      2, "ContinueStatement", "DebuggerStatement", "EmptyStatement",
+      "LabeledStatement", "WithStatement"
+    ],
     "no-new-wrappers": 2,
     "no-new": 2,
     "no-octal-escape": 2,
@@ -108,6 +112,7 @@
     "no-use-before-define": 2,
 
     "callback-return": [2, ["callback"]],
+    "global-require": 0,
     "handle-callback-err": 2,
     "no-new-require": 2,
 
@@ -167,6 +172,7 @@
     "semi": 2,
     "sort-vars": 0,
     "space-after-keywords": 2,
+    "space-before-keywords": 2,
     "space-before-blocks": 2,
     "space-before-function-paren": [2, {
       "anonymous": "always",
