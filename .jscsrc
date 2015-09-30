@@ -2,6 +2,7 @@
   "esnext": true,
   "validateQuoteMarks": "'",
   "validateIndentation": 2,
+  "disallowTabs": true,
   "maximumLineLength": {
     "value": 80,
     "allowUrlComments": true
@@ -38,7 +39,7 @@
     "else", "case", "default", "catch", "finally"
   ],
   "disallowPaddingNewlinesInBlocks": true,
-  "disallowParenthesesAroundArrowParam": null,
+  "disallowParenthesesAroundArrowParam": true,
   "disallowQuotedKeysInObjects": {
     "allExcept": ["reserved"]
   },
@@ -56,6 +57,7 @@
   "disallowSpacesInsideParentheses": true,
   "disallowSpacesInsideParenthesizedExpression": true,
   "disallowTrailingWhitespace": true,
+  "disallowUnusedParams": true,
   "disallowYodaConditions": ["==", "!=", "===", "!==", ">", "<", ">=", "<="],
   "requireBlocksOnNewline": {
     "includeComments": true
@@ -72,6 +74,7 @@
   "requireLineBreakAfterVariableAssignment": true,
   "requireLineFeedAtFileEnd": true,
   "requireMatchingFunctionName": null,
+  "requireMultiLineTernary": null,
   "requireNamedUnassignedFunctions": true,
   "requireNumericLiterals": true,
   "requireObjectKeysOnNewLine": true,
@@ -116,6 +119,9 @@
     "beforeOpeningCurlyBrace": true
   },
   "validateAlignedFunctionParameters": true,
+  "validateCommentPosition": {
+    "position": "above"
+  },
   "validateLineBreaks": null,
   "validateOrderInObjectKeys": null,
   "validateParameterSeparator": ", "
