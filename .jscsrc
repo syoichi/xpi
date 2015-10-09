@@ -27,11 +27,13 @@
   "requireTemplateStrings": null,
 
   "disallowEmptyBlocks": true,
+  "disallowIdenticalDestructuringNames": true,
   "disallowKeywordsInComments": ["FIXME", "TODO"],
   "disallowMixedSpacesAndTabs": true,
   "disallowMultipleLineBreaks": true,
   "disallowMultipleLineStrings": true,
   "disallowMultipleSpaces": true,
+  "disallowNestedTernaries": true,
   "disallowNewlineBeforeBlockStatements": true,
   "disallowNotOperatorsInConditionals": true,
   "disallowOperatorBeforeLineBreak": ["."],
@@ -96,6 +98,7 @@
     "+", "-", "*", "/", "%", "<<", ">>", ">>>", "&", "|", "^",
     "&&", "||", "==", "!=", "===", "!==", ">", "<", ">=", "<="
   ],
+  "requireSpaceAfterComma": true,
   "requireSpaceAfterKeywords": [
     "if", "else", "for", "while", "do", "switch", "case", "try", "catch",
     "finally", "return", "throw", "typeof", "new", "instanceof", "in", "of",
