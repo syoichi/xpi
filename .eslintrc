@@ -46,6 +46,7 @@
     "no-div-regex": 2,
     "no-else-return": 2,
     "no-empty-label": 2,
+    "no-empty-pattern": 2,
     "no-eq-null": 0,
     "no-eval": 2,
     "no-extend-native": 2,
@@ -59,6 +60,11 @@
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
+    "no-magic-numbers": [0, {
+      "ignore": [0, 1],
+      "enforceConst": true,
+      "detectObjects": true
+    }],
     "no-multi-spaces": [2, {
       "exceptions": {
         "Property": false
@@ -133,7 +139,8 @@
     "indent": [2, 2],
     "key-spacing": 2,
     "lines-around-comment": [0, {
-      "beforeLineComment": true
+      "beforeLineComment": true,
+      "allowBlockStart": true
     }],
     "linebreak-style": 0,
     "max-nested-callbacks": [2, 3],
