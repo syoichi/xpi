@@ -89,7 +89,7 @@
   "requirePaddingNewLinesAfterBlocks": null,
   "requirePaddingNewLinesAfterUseStrict": true,
   "requirePaddingNewlinesBeforeKeywords": [
-    "if", "for", "do", "try", "switch", "return", "throw", "break", "function"
+    "if", "for", "do", "try", "switch", "return", "throw", "break"
   ],
   "requirePaddingNewLinesInObjects": null,
   "requireParenthesesAroundIIFE": true,
