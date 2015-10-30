@@ -117,6 +117,7 @@
   ],
   "requireSpaceBeforeObjectValues": true,
   "requireSpaceBetweenArguments": true,
+  "requireSpacesInGenerator": null,
   "requireSpacesInConditionalExpression": true,
   "requireSpacesInForStatement": true,
   "requireSpacesInFunction": {
