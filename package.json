@@ -5,6 +5,7 @@
   "devDependencies": {
     "jshint": "",
     "jscs": "",
+    "jscs-config-tombfix": "",
     "eslint": "",
     "eslint-config-tombfix": ""
   },
