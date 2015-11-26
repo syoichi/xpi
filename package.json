@@ -5,7 +5,8 @@
   "devDependencies": {
     "jshint": "",
     "jscs": "",
-    "eslint": ""
+    "eslint": "",
+    "eslint-config-tombfix": ""
   },
   "engines": {
     "node": ">=0.12",
